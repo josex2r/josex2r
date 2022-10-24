@@ -65,7 +65,7 @@ code {
     background-color: var(--timeline-bubble-color);
   }
 
-  .timeline-container-left {
+  .timeline-container__left {
     @apply md:ml-0 md:mr-auto md:pl-0 md:pr-16;
   }
   .timeline-pointer {
@@ -77,36 +77,38 @@ code {
       drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
     clip-path: inset(0px 0px 0px -5px);
   }
-  .timeline-pointer.right {
+  .timeline-pointer__right {
     @apply triangle-right
           sm:transform sm:rotate-180 sm:p-arrow-sm
           md:left-12;
   }
-  .timeline-pointer.left {
+  .timeline-pointer__left {
     @apply triangle-left
           sm:left-24
           md:left-auto md:right-12 md:p-arrow-md md:rotate-180;
   }
 
+  .parallel {
+    left: 1rem;
+    @apply md:left-20;
+  }
+
+  .parallel > .timeline-container {
+    @apply md:w-[45%] md:left-[-5%];
+  }
+
   .git-parallel {
-    @apply absolute md:mx-auto md:left-0 md:right-0 h-full w-2;
+    @apply absolute h-full w-2
+      md:mx-auto md:left-0 md:right-0;
   }
-  .git-parallel.top {
-    /* top: -6rem; */
-    /* left: -10.1rem; */
+  .git-parallel__top {
+    top: -3.8rem;
+    left: -2.3rem;
+    @apply md:left-[-10rem];
   }
-  .git-parallel.bottom {
-    /* @apply transform scale-x-[-1]; */
-    /* bottom: -6rem; */
-    /* left: 0.1rem; */
-  }
-  .git-parallel.top {
-    top: -6rem;
-    left: -6.3rem;
-  }
-  .git-parallel.bottom {
-    @apply transform scale-x-[-1];
-    bottom: -6rem;
-    left: 0.1rem;
+  .git-parallel__bottom {
+    bottom: -8.5rem;
+    left: 2.8rem;
+    @apply transform scale-x-[-1] md:left-0;
   }
 }

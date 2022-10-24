@@ -12,6 +12,7 @@ import logoGobalo from './img/logo-gobalo.png';
 import avatar from './img/josex2r.jpeg';
 import light1 from './img/light1.png';
 import light2 from './img/light2.png';
+import { SocialIcons } from './components/social';
 
 const experience: Experience[] = [
   {
@@ -113,17 +114,13 @@ const App = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col sm:flex-row flex-grow overflow-hidden">
-        {/*
-<div class="sm:w-1/3 md:1/4 w-full flex-shrink flex-grow-0 p-4">
-Sidebar
-
-</div>
-      */}
+      <div className="w-full flex flex-colum sm:flex-row flex-grow overflow-hidden">
         <main
           role="main"
-          className="w-full h-full flex-grow p-10 overflow-auto"
+          className="w-full h-full flex-grow p-10 overflow-hidden"
         >
+          <SocialIcons className="flex flex-wrap justify-end gap-2" />
+
           <ProfileCard
             avatar={avatar}
             name="Jose Luis Represa"
