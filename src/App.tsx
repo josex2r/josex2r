@@ -22,12 +22,13 @@ const experience: Experience[] = [
       {
         date: 'Apr. 2022 - Today',
         title: 'Senior Fullstack Engineer',
-        description: 'Python backend ',
+        description:
+          'Internal AI projects using Python technologies to develop microservices and React as frontend framework',
       },
       {
         date: 'Mar. 2018 - Apr. 2022',
         title: 'Frontend Technical Architect',
-        description: "BBVA's mobile application Frontend tech lead",
+        description: "Frontend tech lead at BBVA's Mobile Banking App",
       },
     ],
   },
@@ -51,12 +52,12 @@ const experience: Experience[] = [
       {
         date: 'Ene. 2017 - Mar. 2018',
         title: 'Frontend Technical Architect',
-        description: "BBVA's mobile application core team developer",
+        description: "Frontend tech lead at BBVA's Mobile Banking App",
       },
       {
         date: 'Apr. 2016 - Jan. 2017',
         title: 'Frontend Engineer',
-        description: "BBVA's mobile application core team developer",
+        description: "BBVA's Mobile Banking App core-team frontend engineer",
       },
     ],
   },
@@ -67,12 +68,13 @@ const experience: Experience[] = [
       {
         date: 'Oct. 2015 - Apr. 2016',
         title: 'Senior Frontend Developer',
-        description: "BBVA's mobile web application developer.",
+        description: "BBVA's Mobile Banking App core-team frontend engineer",
       },
       {
-        date: 'Oct. 2014 - Oct. 2015',
+        date: 'Nov. 2014 - Oct. 2015',
         title: 'Fullstack Developer',
-        description: 'Frontend JavaScript + Backend Java engineer',
+        description:
+          "BBVA's internal managment projects using Sprint (Java) as backend framework and raw Javascript on the clien't side",
       },
     ],
   },
@@ -83,8 +85,7 @@ const experience: Experience[] = [
       {
         date: 'Apr. 2013 - Nov. 2014',
         title: 'Fullstack Web Developer',
-        description:
-          "As a web developer my daily work was to create and maintain tons of web applications including shops, blogs, management apps, games and other stuff... While working as a developer, I've also had to maintain the local servers and config the company's hardware. I've worked for small clients like local shops and also for big techs or universities like Google or Nebrija University between others.",
+        description: 'Javascript + Python junior engineer',
       },
     ],
   },
