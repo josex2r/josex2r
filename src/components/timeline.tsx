@@ -18,7 +18,7 @@ export const TimelineCard: FC<
     <img src={image} alt="" className="timeline-img" />
     <div className={`timeline-container ${left && 'timeline-container-left'}`}>
       <div
-        className={`timeline-pointer ${left && 'timeline-pointer-left'}`}
+        className={`timeline-pointer ${left ? 'left' : 'right'}`}
         aria-hidden="true"
       ></div>
       <div className="bg-white p-6 rounded-md shadow-md">
