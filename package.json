@@ -2,9 +2,10 @@
   "name": "josex2r",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://josex2r.github.io/josex2r",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf docs && PUBLIC_URL=\"/josex2r\" react-scripts build && mv build docs",
     "lint": "eslint .",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
