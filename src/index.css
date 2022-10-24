@@ -9,6 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --timeline-color: rgb(21, 94, 117);
+  --timeline-bubble-color: #fff;
 }
 
 code {
@@ -17,62 +20,93 @@ code {
 }
 
 @layer components {
-    .p-arrow-sm {
-      left: 6rem;
-    }
-    .p-arrow-md {
-      left: 18.5rem;
-    }
-    .triangle-right {
-      @apply border-l-white border-solid border-l-8 border-y-transparent border-y-8 border-r-0;
-    }
-    .triangle-up {
-      @apply border-b-white border-solid border-b-8 border-x-transparent border-x-8 border-t-0;
-    }
-    .triangle-down {
-      @apply border-t-white border-solid border-t-8 border-x-transparent border-x-8 border-b-0;
-    }
-    .triangle-left {
-      @apply border-r-white border-solid border-r-8 border-y-transparent border-y-8 border-l-0;
-    }
-    .timeline-img {
-        @apply
-          h-24 w-24
-          object-cover rounded-full shadow-md border-4 border-white
+  .bg-timeline {
+    background-color: var(--timeline-color);
+  }
+  .p-arrow-sm {
+    left: 6rem;
+  }
+  .p-arrow-md {
+    left: 18.5rem;
+  }
+
+  .triangle-right {
+    @apply border-solid border-l-8 border-y-transparent border-y-8 border-r-0;
+    border-left-color: var(--timeline-bubble-color);
+  }
+  .triangle-up {
+    @apply border-solid border-b-8 border-x-transparent border-x-8 border-t-0;
+    border-bottom-color: var(--timeline-bubble-color);
+  }
+  .triangle-down {
+    @apply border-solid border-t-8 border-x-transparent border-x-8 border-b-0;
+    border-top-color: var(--timeline-bubble-color);
+  }
+  .triangle-left {
+    @apply border-solid border-r-8 border-y-transparent border-y-8 border-l-0;
+    border-right-color: var(--timeline-bubble-color);
+  }
+
+  .timeline-img {
+    @apply h-24 w-24
+          object-cover rounded-full shadow-md border-4
           sm:absolute
-          md:mx-auto md:left-0 md:right-0
-          bg-white;
-    }
-    .timeline-container {
-        @apply
-          drop-shadow-md
+          md:mx-auto md:left-0 md:right-0;
+    background-color: var(--timeline-bubble-color);
+    border-color: var(--timeline-bubble-color);
+  }
+  .timeline-container {
+    @apply drop-shadow-md
           relative pt-2 z-10
           sm:pl-28 sm:pt-0
           md:w-1/2 md:ml-auto md:pl-16;
-    }
-    .timeline-container-left {
-        @apply
-          md:ml-0 md:mr-auto md:pl-0 md:pr-16;
-    }
-    .timeline-pointer {
-        @apply
-          invisible
+  }
+  .timeline-container > div:nth-child(2) {
+    background-color: var(--timeline-bubble-color);
+  }
+
+  .timeline-container-left {
+    @apply md:ml-0 md:mr-auto md:pl-0 md:pr-16;
+  }
+  .timeline-pointer {
+    @apply invisible
           sm:visible
           absolute z-0 inset-0 h-4 w-4
           sm:top-10;
-      filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-      clip-path: inset(0px 0px 0px -5px);
-    }
-    .timeline-pointer.right {
-        @apply
-          triangle-right
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+      drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+    clip-path: inset(0px 0px 0px -5px);
+  }
+  .timeline-pointer.right {
+    @apply triangle-right
           sm:transform sm:rotate-180 sm:p-arrow-sm
           md:left-12;
-    }
-    .timeline-pointer.left {
-        @apply
-          triangle-left
+  }
+  .timeline-pointer.left {
+    @apply triangle-left
           sm:left-24
           md:left-auto md:right-12 md:p-arrow-md md:rotate-180;
-    }
+  }
+
+  .git-parallel {
+    @apply absolute md:mx-auto md:left-0 md:right-0 h-full w-2;
+  }
+  .git-parallel.top {
+    /* top: -6rem; */
+    /* left: -10.1rem; */
+  }
+  .git-parallel.bottom {
+    /* @apply transform scale-x-[-1]; */
+    /* bottom: -6rem; */
+    /* left: 0.1rem; */
+  }
+  .git-parallel.top {
+    top: -6rem;
+    left: -6.3rem;
+  }
+  .git-parallel.bottom {
+    @apply transform scale-x-[-1];
+    bottom: -6rem;
+    left: 0.1rem;
+  }
 }

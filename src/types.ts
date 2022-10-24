@@ -8,4 +8,5 @@ export type Experience = {
   image: string;
   company: string;
   jobs: Job[];
+  parallel?: boolean;
 };

@@ -41,6 +41,7 @@ const experience: Experience[] = [
           'Node.js in-house & customized training for particulars and teams.',
       },
     ],
+    parallel: true,
   },
   {
     image: logoBeeva,
