@@ -7,6 +7,7 @@
     "start": "react-scripts start",
     "build": "rm -rf docs && PUBLIC_URL=\"/josex2r\" react-scripts build && mv build docs",
     "lint": "eslint .",
+    "prepare": "husky install",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
