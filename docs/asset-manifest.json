@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/josex2r/static/css/main.ef23d6ba.css",
-    "main.js": "/josex2r/static/js/main.2c78e712.js",
+    "main.css": "/josex2r/static/css/main.398b3931.css",
+    "main.js": "/josex2r/static/js/main.506d3b1f.js",
     "static/media/josex2r.jpeg": "/josex2r/static/media/josex2r.975c1ff3b938311f90c5.jpeg",
     "static/media/light1.png": "/josex2r/static/media/light1.61f4d3334a6d245fc229.png",
     "static/media/light2.png": "/josex2r/static/media/light2.a8984b7fb44a4f8232d0.png",
     "static/media/logo-next.png": "/josex2r/static/media/logo-next.cce1d6d1e78abdca10f5.png",
     "static/media/logo-beeva.png": "/josex2r/static/media/logo-beeva.f3a684046e98d560b67d.png",
     "index.html": "/josex2r/index.html",
-    "main.ef23d6ba.css.map": "/josex2r/static/css/main.ef23d6ba.css.map",
-    "main.2c78e712.js.map": "/josex2r/static/js/main.2c78e712.js.map"
+    "main.398b3931.css.map": "/josex2r/static/css/main.398b3931.css.map",
+    "main.506d3b1f.js.map": "/josex2r/static/js/main.506d3b1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef23d6ba.css",
-    "static/js/main.2c78e712.js"
+    "static/css/main.398b3931.css",
+    "static/js/main.506d3b1f.js"
   ]
 }
