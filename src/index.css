@@ -96,12 +96,12 @@ code {
           md:left-auto md:right-12 md:p-arrow-md md:rotate-180;
   }
 
-  .parallel {
+  .timeline-parallel {
     left: 1rem;
     @apply md:left-20;
   }
 
-  .parallel > .timeline-container {
+  .timeline-parallel > .timeline-container {
     @apply md:w-[45%] md:left-[-5%];
   }
 

@@ -13,9 +13,11 @@ export const ProfileCard: FC<{
         alt="avatar"
       />
     </div>
+
     <div className="text-center px-3 pb-6 pt-2">
       <h2 className="text-slate-100 text-xl bold font-sans">{name}</h2>
-      <p className="text-slate-300 mt-2 font-sans font-light">{bio}</p>
+
+      <pre className="text-slate-300 mt-2 font-sans font-light">{bio}</pre>
     </div>
   </div>
 );
