@@ -49,5 +49,7 @@ jobs:
       - name: Publish changes
         run: |
           git add docs
-          git commit -m "docs: update static site"
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git diff-index --quiet HEAD || git commit -m "docs: update static site"
           git push origin gh-pages
