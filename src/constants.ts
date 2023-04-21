@@ -1,5 +1,6 @@
 import { Experience } from './types';
 
+import logoIkea from './img/logo-ikea.jpg';
 import logoNext from './img/logo-next.png';
 import logoBeeva from './img/logo-beeva.png';
 import logoFictizia from './img/logo-fictizia.png';
@@ -13,11 +14,23 @@ Constantly learning while searching for new challenges, tech lover and painter d
 
 export const EXPERIENCE: Experience[] = [
   {
+    image: logoIkea,
+    company: 'IKEA',
+    jobs: [
+      {
+        date: 'Nov. 2022 - Today',
+        title: 'Senior Fullstack Engineer',
+        description:
+          'Internal co-workers apps to leverage the tasks on the stores around the globe, using Javascript/Python technologies plus GCP integration.',
+      },
+    ],
+  },
+  {
     image: logoNext,
     company: 'BBVA Next Technologies',
     jobs: [
       {
-        date: 'Apr. 2022 - Today',
+        date: 'Apr. 2022 - Nov. 2022',
         title: 'Senior Fullstack Engineer',
         description:
           'Internal AI projects using Python technologies to develop microservices and React as frontend framework',
