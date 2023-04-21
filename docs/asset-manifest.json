@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/josex2r/static/css/main.398b3931.css",
-    "main.js": "/josex2r/static/js/main.506d3b1f.js",
+    "main.js": "/josex2r/static/js/main.7745fb2f.js",
     "static/media/josex2r.jpeg": "/josex2r/static/media/josex2r.975c1ff3b938311f90c5.jpeg",
     "static/media/light1.png": "/josex2r/static/media/light1.61f4d3334a6d245fc229.png",
     "static/media/light2.png": "/josex2r/static/media/light2.a8984b7fb44a4f8232d0.png",
+    "static/media/logo-ikea.jpg": "/josex2r/static/media/logo-ikea.cd6ddd9e2a0859602b91.jpg",
     "static/media/logo-next.png": "/josex2r/static/media/logo-next.cce1d6d1e78abdca10f5.png",
     "static/media/logo-beeva.png": "/josex2r/static/media/logo-beeva.f3a684046e98d560b67d.png",
     "index.html": "/josex2r/index.html",
     "main.398b3931.css.map": "/josex2r/static/css/main.398b3931.css.map",
-    "main.506d3b1f.js.map": "/josex2r/static/js/main.506d3b1f.js.map"
+    "main.7745fb2f.js.map": "/josex2r/static/js/main.7745fb2f.js.map"
   },
   "entrypoints": [
     "static/css/main.398b3931.css",
-    "static/js/main.506d3b1f.js"
+    "static/js/main.7745fb2f.js"
   ]
 }
