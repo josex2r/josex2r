@@ -5,13 +5,13 @@ josex2r</a></h1>
 <p align="center">
   <div align="center"  class="icons-social" style="margin-left: 10px;">
     <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/josex2r/">
-      <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png">
+      <img src="./public/icons/in.png">
     </a>
     <a style="margin-left: 10px;" target="_blank" href="https://github.com/josex2r">
-      <img src="https://img.icons8.com/doodle/40/000000/github--v1.png">
+      <img src="./public/icons/github.png">
     </a>
     <a style="margin-left: 10px;" target="_blank" href="https://josex2r.github.io/josex2r/">
-      <img src="https://img.icons8.com/plasticine/0.5x/resume.png">
+      <img src="./public/icons/resume.png">
     </a>
 <!--
   Stack Overflow: https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png
